@@ -836,20 +836,27 @@ def extract_text_from_xml_folder(folder_path):
     print(f"We extracted in a .json file {c} files.")
     return extracted_text
 
-file_path = 'pubmed_search.txt'
-download_directory = "PMC"
-xml_folder = "XML"
+file_path = input("Please enter the path of the search file containing PMCIDs (e.g., pubmed_search.txt): ")
+download_directory = input("Please enter the name of the directory where you want to store those PMC (e.g., PMC): ")
+xml_folder = input("Please enter the name of the XML folder where the .nxml files will be located (e.g., XML): ")
 
 # Calling our functions :
 download_tarballs_from_pmcids(file_path, download_directory)
 extract_xml_from_tar(download_directory, xml_folder)
 
-output_folder = 'XML_Final'
-desired_size = 50000  
-title_pattern = r"Discussion" 
-unwanted_title = "Discussion"
+# Ask the user to input the parameters
+output_folder = input("Please enter the name of the final folder (e.g., XML_Final): ")
+while True:
+    try:
+        desired_size = int(input("Please enter the maximum size of the files you want (e.g., 50000): "))
+        break  # Exit loop if conversion is successful
+    except ValueError:
+        print("Invalid input. Please enter an integer value.")
+title_pattern = input("Please enter the title pattern (e.g., Discussion): ")
+unwanted_title = input("Please enter the unwanted title (e.g., Discussion): ")
 
-# Lancer le processus global
+
+# Launch the final procedure
 final_xml(xml_folder, output_folder, desired_size, title_pattern, unwanted_title)
 
 # Extract the text from XML files
