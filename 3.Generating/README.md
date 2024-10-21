@@ -86,5 +86,22 @@ After the fine-tuning, you can use the model on inference mode with the code :
 python Llama_3.1_8B_Inference_After_Fine_Tuning.py
 ```
 
+## Splitting Response ##
+
+You can use the two files 'Splitting_Gen_Cohere.py' and 'Splitting_Gen_Llama.py' to keep only the generated part of the response.
+
+Simply run :
+
+```bash
+python Splitting_Gen_Cohere.py
+```
+With your generated texts (file created after you run the inference.
+
+Or 
+
+```bash
+python Splitting_Gen_Llama.py
+```
+
 
 
