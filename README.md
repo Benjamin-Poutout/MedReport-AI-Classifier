@@ -22,8 +22,13 @@ To reproduce the construction of MedReport, you need to perform the following st
 5. **Train and evaluate classification models**:  The [Classification](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/4.Classification) folder contains scripts that enable you to train and evaluate LongFormer on the MedReport generations.
 
 ## Citation
+
+```bibtex
 @article{poutout2024medreport,
 title={MedReport AI Classifier: Un Outil pour l'Extraction et la Classification des Rapports Médicaux},
+year={2024},
+}
+```
 author={Poutout, Benjamin et Geogakopoulos, Iassonas},
 year={2024},
 publisher={Éditeur}
