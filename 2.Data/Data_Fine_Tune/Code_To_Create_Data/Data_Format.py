@@ -1,5 +1,7 @@
 import csv
 import json
+import pandas as pd
+from sklearn.model_selection import train_test_split
 
 # Paths to your CSV input file and JSONL output file
 csv_file_path = 'Entities_to_Generate.csv'
@@ -21,3 +23,15 @@ with open(csv_file_path, mode='r', newline='', encoding='utf-8') as csv_file, op
         jsonl_file.write(json.dumps(json_obj, ensure_ascii=False) + '\n')
 
 print(f"Conversion completed. JSONL file saved to {jsonl_file_path}")
+
+with open(jsonl_file_path, "r", encoding="utf-8") as file:
+    data = [json.loads(line) for line in file]
+
+df = pd.DataFrame(data)
+
+train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
+
+train_df.to_json("llama_3_finetune_data_train.jsonl", orient="records", lines=True)
+test_df.to_json("llama_3_finetune_data_test.jsonl", orient="records", lines=True)
+
+print("Th files 'output_train.jsonl' and 'output_test.jsonl' have been sucessfully created.")
