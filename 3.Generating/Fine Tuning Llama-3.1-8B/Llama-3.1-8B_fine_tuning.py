@@ -38,7 +38,7 @@ else:
 
 login(token="hugging_face_token_here")
 model_name = 'meta-llama/Meta-Llama-3.1-8B-Instruct' # Replace with the correct model name
-#access_token = "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"
+access_token = "hugging_face_toekn_here"
 # Fine-tuned model name
 new_model = "Llama-3.1-8B-Instruct-Fine-Tune"
 
