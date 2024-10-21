@@ -12,7 +12,7 @@ cd MedReport-AI-Classifier
 pip install -r requirements.txt
 ```
 
-Reconstruct MedReport
+**Reconstruct MedReport**
 
 To reproduce the construction of MedReport, you need to perform the following steps:
 
@@ -26,7 +26,7 @@ To reproduce the construction of MedReport, you need to perform the following st
 ```bibtex
 @article{poutout2024medreport,
 author={Poutout, Benjamin and Geogakopoulos, Iassonas and others},
-title={MedReport AI Classifier: Un Outil pour l'Extraction et la Classification des Rapports Médicaux},
+title={MedReport AI Classifier: A tool for extracting, generating and testing French Medical Case Reports},
 year={2024},
 }
 ```
