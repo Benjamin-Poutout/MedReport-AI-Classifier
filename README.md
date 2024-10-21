@@ -30,7 +30,3 @@ title={MedReport AI Classifier: Un Outil pour l'Extraction et la Classification 
 year={2024},
 }
 ```
-author={Poutout, Benjamin et Geogakopoulos, Iassonas},
-year={2024},
-publisher={Éditeur}
-}
