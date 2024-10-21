@@ -49,7 +49,7 @@ python one-shot-llama-3.py
 
 If you want to generate through a Llama model.
 
-## Generating through One Shot ##
+## Generating through Few Shot ##
 
 To generate new medical case reports using the entities created previously, you can simply run :
 
