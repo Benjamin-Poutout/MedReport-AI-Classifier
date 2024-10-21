@@ -43,7 +43,7 @@ test = (f'''Vous êtes un expert dans le domaine médical, spécialisé dans l'a
 
 
 # Open the csv file in writing mode
-fich = 'entity_llama_3_70B_1400.csv'
+fich = 'entity_llama_3_70B.csv'
 with open(fich, 'w', newline='', encoding='utf-8') as csvfile:
     fieldnames = ['model_name', 'prompt', 'temperature', 'generation', 'true_text']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -51,9 +51,8 @@ with open(fich, 'w', newline='', encoding='utf-8') as csvfile:
     writer.writeheader()
 
     # Generating the new items and adding them to a new csv file
-    print(fich)
     j=0
-    for sentence in sentences[1300:1400]:
+    for sentence in sentences:
         j+=1
         messages = [
         {"role": "system", "content": test},
