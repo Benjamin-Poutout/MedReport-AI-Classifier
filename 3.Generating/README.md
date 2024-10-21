@@ -1,8 +1,10 @@
 # MedReport Generating
 
-**Important Note** You will have to edit the files to add your **HuggingFace Token**. Without it, you won't be able to run the code. Ask permissions for the different models on [HuggingFace](https://huggingface.co/). You can then also change the model_id in the code to chose any model you want (make sure you are in the Llama file for models based on Llama and on the Cohere file if you want a model based on Cohere).
+**Important Note** : You will have to edit the files to add your **HuggingFace Token**. Without it, you won't be able to run the code. Ask permissions for the different models on [HuggingFace](https://huggingface.co/). You can then also change the model_id in the code to chose any model you want (make sure you are in the Llama file for models based on Llama and on the Cohere file if you want a model based on Cohere).
 
 You will find for each strategy of generation a folder [Plots and stats](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/3.Generating/Chain%20of%20Thought%20Generation/Plots%20and%20Stats) that you can use to create a set of different statistics on the generations aswell as some visualizations.
+
+**Requirements** : You need to copy the files 'inference_data.json' and 'Entities_to_Generate.csv' from the folder [Data](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/2.Data).
 
 ## Extracting Entities ##
 
