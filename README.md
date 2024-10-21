@@ -25,6 +25,7 @@ To reproduce the construction of MedReport, you need to perform the following st
 
 ```bibtex
 @article{poutout2024medreport,
+author={Poutout, Benjamin and Geogakopoulos, Iassonas and others},
 title={MedReport AI Classifier: Un Outil pour l'Extraction et la Classification des Rapports Médicaux},
 year={2024},
 }
