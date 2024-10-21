@@ -10,3 +10,25 @@ Follow these instructions to install the necessary dependencies for the project.
 git clone https://github.com/Benjamin-Poutout/MedReport-AI-Classifier
 cd MedReport-AI-Classifier
 pip install -r requirements.txt
+```
+
+Reconstruct MedReport
+
+To reproduce the construction of MedReport, you need to perform the following steps:
+
+1. **Extracting Case Reports** : In the [PubMed]([URL](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/1.PubMed)) directory, detailed steps are provided to extract medical cas reports needed for the MedReport dataset development.
+2. **Using MedReport dataset** : You can use the already extracted data from the [Data]([URL](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/2.Data)) directory or create your own Dataset with the [PubMed]([URL](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/1.PubMed)) directory.
+3. **Generate new entities / case reports ** : The [Generating]([URL](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/3.Generating)) folder contains scripts that enable you to generate using various large language models using the MedReport dataset.
+
+
+## Citation
+@article{poutout2024medreport,
+title={MedReport AI Classifier: Un Outil pour l'Extraction et la Classification des Rapports Médicaux},
+author={Poutout, Benjamin et al.},
+journal={Nom du Journal},
+volume={xx},
+number={x},
+pages={xx--xx},
+year={2024},
+publisher={Éditeur}
+}
