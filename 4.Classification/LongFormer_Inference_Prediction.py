@@ -13,7 +13,7 @@ import random
 from datasets import ClassLabel, Dataset, Features, Value
 import evaluate
 
-with open("dataset.json", "r", encoding='utf-8') as json_file:
+with open("classification_data.json", "r", encoding='utf-8') as json_file:
     data = json.load(json_file)
 
 data_test = data['test']
