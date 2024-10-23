@@ -1,4 +1,4 @@
-#MedReport Classification
+# MedReport Classification
 
 For the final task, you can either run '**Dataset_Train_Test.py**' to create the dataset you will use to fine-tune and test LongFormer or you can use the file '**classification_data.json**' directly from [Data Classification](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/2.Data/Data_Classification).
 
