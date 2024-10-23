@@ -2,7 +2,7 @@
 
 This directory contains the folder [Extracting-Case-Reports](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/1.PubMed/Extracting-Case-Reports) used to extract all case reports and to create the dataset.
 
-To download and execute all the code present in [Extracting-Case-Reports](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/1.PubMed/Extracting-Case-Reports), you will need to have the file '**pubmed_search.txt**' containing all the PMCIDs from PubMed you want to extract on. This file is already available in the Git inside the [Data](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/edit/main/2.Data) but you can create your own depending on the data you want to extract (the texte has to be written in french).
+To download and execute all the code present in [Extracting-Case-Reports](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/tree/main/1.PubMed/Extracting-Case-Reports), you will need to have the file '**pubmed_search.txt**' containing all the PMCIDs from PubMed you want to extract on. This file is already available in the Git inside the folder [Data](https://github.com/Benjamin-Poutout/MedReport-AI-Classifier/edit/main/2.Data) but you can create your own depending on the data you want to extract (the texte has to be written in french).
 
 **Important Note** : 
 
