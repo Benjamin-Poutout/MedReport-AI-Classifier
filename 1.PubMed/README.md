@@ -6,7 +6,7 @@ To download and execute all the code present in [Extracting-Case-Reports](https:
 
 **Important Note** : 
 
-Note that when running the 'extract_reports.py' file, several informations will be asked : 
+Note that when running the '**extract_reports.py**' file, several informations will be asked : 
 
 The name of the xml_folder you will have to create, after doing manipulations, the name of the final folder containing the remaining case reports, the desired size of the files you want (you can chose to exclude files too big for example), the title_pattern which is a re.compile of the possible ways our title can be write and where unwanted_title is the general name of the title. (e.g You don't want to include the sections or sub-sections of an .xml file with the name Discussion).
 
