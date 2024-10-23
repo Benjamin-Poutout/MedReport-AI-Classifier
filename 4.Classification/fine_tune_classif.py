@@ -25,7 +25,7 @@ config = LongformerConfig()
 
 config
 
-with open("dataset_llama.json", "r", encoding='utf-8') as json_file:
+with open("classification_data.json", "r", encoding='utf-8') as json_file:
     data = json.load(json_file)
 
 # Extract training data
