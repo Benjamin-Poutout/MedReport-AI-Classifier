@@ -12,7 +12,7 @@ The name of the xml_folder you will have to create, after doing manipulations, t
 
 **Running the code extract_reports.py** : 
 
-Several folders will be created during the execution of the code 'extract_reports.py', the main file relevant will be the 'cleaned_data_structure.json' file.
+Several folders will be created during the execution of the code '**extract_reports.py**', the main file relevant will be the '**cleaned_data_structure.json**' file.
 
 ```bash
 python extract_reports.py
